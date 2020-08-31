@@ -11,3 +11,11 @@ puts b
 b = a.map {|e| e.to_f}
 
 puts b
+
+# Utilizando select descartar todos los elementos menores a 5 en el array.
+
+b = a.select {|e| e < 5}
+
+puts b
+
+# Utilizando inject sumar todos los valores del array.
