@@ -25,3 +25,7 @@ b = a.inject(0) { |sum, x| sum + x }
 puts b
 
 # Utilizando .count contar todos los elementos menores que 5.
+
+b = a.count {|e| e < 5}
+
+puts b
