@@ -19,3 +19,9 @@ b = a.select {|e| e < 5}
 puts b
 
 # Utilizando inject sumar todos los valores del array.
+
+b = a.inject(0) { |sum, x| sum + x }
+
+puts b
+
+# Utilizando .count contar todos los elementos menores que 5.
